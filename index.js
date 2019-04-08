@@ -32,7 +32,7 @@ class Route
       '5th Avenue'
     ];
 
-    let numAvenues = endingLocation.horizontal - beginningLocation.horizontal;
+    let numAvenues = this.endingLocation.horizontal - this.beginningLocation.horizontal;
     let numStreets = blocksTravelled.findIndex(endingLocation.vertical) - blocksTravelled.findIndex(beginningLocation.vertical);
     return numAvenues + numStreets;
 
