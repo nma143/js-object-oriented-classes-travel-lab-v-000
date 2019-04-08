@@ -31,7 +31,7 @@ class Route
       'Madison Avenue',
       '5th Avenue'
     ];
-
+    Console.log("Hey");
     let numAvenues = this.endingLocation.horizontal - this.beginningLocation.horizontal;
     Console.log(numAvenues);
     let numStreets = eastWest.findIndex(this.endingLocation.vertical) - eastWest.findIndex(this.beginningLocation.vertical);
