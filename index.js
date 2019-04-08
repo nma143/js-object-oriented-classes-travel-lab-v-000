@@ -8,7 +8,7 @@ class Driver
 
   startDate()
   {
-
+    this.startDate = Date.parse(this.startDate);
   }
 
 }
