@@ -36,4 +36,11 @@ class Route
     let numHorizontalBlocks = Math.abs(eastWest.indexOf(this.endingLocation.horizontal) - eastWest.indexOf(this.beginningLocation.horizontal));
     return numVerticalBlocks + numHorizontalBlocks;
   }
+
+  estimatedTime()
+  {
+    
+  }
+
+
 }
