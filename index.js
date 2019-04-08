@@ -8,7 +8,7 @@ class Driver
 
   startDate()
   {
-    return Date.parse();
+    this.startDate = Date.parse(this.startDate);
   }
   yearsExperienceFromBeginningOf()
   {
