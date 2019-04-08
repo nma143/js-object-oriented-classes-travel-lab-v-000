@@ -33,8 +33,7 @@ class Route
     ];
 
     let numVerticalBlocks = this.endingLocation.vertical - this.beginningLocation.vertical;
-
-    let numHorizontalBlocks = eastWest.findIndex(this.endingLocation.horizontal) - eastWest.findIndex( this.beginningLocation.horizontal );
+    let numHorizontalBlocks = eastWest.indexOf(this.endingLocation.horizontal) - eastWest.indexOf( this.beginningLocation.horizontal );
     return numVerticalBlocks + numHorizontalBlocks;
   }
 }
