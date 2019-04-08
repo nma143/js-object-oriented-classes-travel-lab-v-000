@@ -32,7 +32,7 @@ class Route
       '5th Avenue'
     ];
 
-    let numVerticalBlocks = this.endingLocation.vertical - this.beginningLocation.vertical;
+    let numVerticalBlocks = Math.abs(this.endingLocation.vertical - this.beginningLocation.vertical);
     let numHorizontalBlocks = eastWest.indexOf(this.endingLocation.horizontal) - eastWest.indexOf( this.beginningLocation.horizontal );
     return numVerticalBlocks + numHorizontalBlocks;
   }
