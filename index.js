@@ -34,6 +34,7 @@ class Route
 
     let numAvenues = this.endingLocation.horizontal - this.beginningLocation.horizontal;
     let numStreets = eastWest.findIndex(this.endingLocation.vertical) - eastWest.findIndex(this.beginningLocation.vertical);
+    debugger;
     return numAvenues + numStreets;
   }
 }
