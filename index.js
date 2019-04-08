@@ -33,9 +33,8 @@ class Route
     ];
 
     let numAvenues = endingLocation.horizontal - beginningLocation.horizontal;
-    
-
-
+    let numStreets = blocksTravelled.findIndex(endingLocation.vertical) - blocksTravelled.findIndex(beginningLocation.vertical);
+    return numAvenues + numStreets;
 
 
   }
