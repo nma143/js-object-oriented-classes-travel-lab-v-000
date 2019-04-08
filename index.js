@@ -37,9 +37,16 @@ class Route
     return numVerticalBlocks + numHorizontalBlocks;
   }
 
-  estimatedTime()
+  estimatedTime(peak)
   {
-    
+    if (peak)
+    {
+      return this.blocksTravelled/3;
+    }
+    else 
+    {
+        
+    }
   }
 
 
