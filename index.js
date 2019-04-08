@@ -6,9 +6,5 @@ class Driver
     this.startDate = Date.parse(startDate);
   }
 
-  startDate()
-  {
-    this.startDate = Date.parse(this.startDate);
-  }
 
 }
